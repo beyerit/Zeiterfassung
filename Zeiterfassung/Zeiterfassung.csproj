@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>enable</Nullable>
+	<LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Zeiterfassung.Program</StartupObject>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.1</Version>
+    <PackageIcon>#16752.ico</PackageIcon>
+    <ApplicationIcon>#16752.ico</ApplicationIcon>
+    <SignAssembly>True</SignAssembly>
+    <Copyright>Copyright © 2022 - 2023 Christoph Beyer, Schindler AG</Copyright>
+  </PropertyGroup>
+
+    <ItemGroup>
+		<Reference Include="System" />
+		<Reference Include="System.Configuration" />
+		<Reference Include="System.Core" />
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Deployment" />
+		<Reference Include="System.Drawing" />
+		<Reference Include="System.Net.Http" />
+		<Reference Include="System.Windows.Forms" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Windows.Forms" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <Content Include="#16752.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icons\#16752.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.18.0" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

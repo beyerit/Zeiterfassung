@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Zeiterfassung.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastSyncSuccess" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TablePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastSync" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TargetFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\temp</Value>
+    </Setting>
+    <Setting Name="SupportEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">christoph.beyer@schindler.com</Value>
+    </Setting>
+    <Setting Name="syncmode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ViewFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\temp\short</Value>
+    </Setting>
+    <Setting Name="RetrieveHoursFromExcel" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ProgramPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE</Value>
+    </Setting>
+    <Setting Name="ProgramPathUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ForcedSyncClosing" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EnableScaling" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
